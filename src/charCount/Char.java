@@ -9,9 +9,9 @@ public class Char {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	//	Scanner scan = new Scanner(System.in);
-	//	System.out.println("Bir metin giriniz");
-		String metinString="intellij idea";
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Bir metin giriniz");
+		String metinString=scan.nextLine();
 		
 		HashMap<Character, Integer> tekrarSayilari = new HashMap<>();
 		//char [] dizK=metinString.toCharArray();
